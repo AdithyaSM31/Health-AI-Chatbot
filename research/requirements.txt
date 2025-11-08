@@ -1,0 +1,10 @@
+langchain
+langchain-openai
+langchain-google-genai
+langchain-community
+langchain-pinecone
+
+flask
+sentence-transformers
+pypdf
+python-dotenv
