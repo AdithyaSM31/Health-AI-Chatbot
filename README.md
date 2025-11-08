@@ -24,8 +24,34 @@ A Medical AI Chatbot powered by Retrieval Augmented Generation (RAG) that provid
 - Python 3.11+
 - Pinecone API Key
 - Google API Key (for Gemini)
+- Docker (optional, for containerized deployment)
 
 ## Installation
+
+### Option 1: Docker Deployment (Recommended) 🐳
+
+1. Clone the repository:
+```bash
+git clone https://github.com/AdithyaSM31/Health-AI-Chatbot.git
+cd Health-AI-Chatbot
+```
+
+2. Create a `.env` file with your API keys:
+```env
+PINECONE_API_KEY=your_pinecone_api_key_here
+GOOGLE_API_KEY=your_google_api_key_here
+```
+
+3. Build and run with Docker Compose:
+```bash
+docker-compose up -d
+```
+
+4. Access the application at `http://localhost:8080`
+
+For detailed Docker deployment instructions, see [DOCKER_DEPLOYMENT.md](DOCKER_DEPLOYMENT.md)
+
+### Option 2: Local Installation
 
 1. Clone the repository:
 ```bash
